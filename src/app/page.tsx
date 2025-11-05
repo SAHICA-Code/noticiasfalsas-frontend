@@ -110,7 +110,7 @@ export default function Home() {
 
               <form onSubmit={handleSubmit} aria-label="Formulario verificador de noticias falsas">
                 <TextField
-                  label="Introduce un enlace a verificar..."
+                  label="Introduce una noticia, titular o enlace a verificar... "
                   variant="outlined"
                   fullWidth
                   value={text}
